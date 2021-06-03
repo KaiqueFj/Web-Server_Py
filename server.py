@@ -13,6 +13,16 @@ def my_home():
 def about():
     return render_template('about.html')
 
+
+@app.route("/works.html")
+def work():
+    return render_template('works.html')
+
+
+@app.route("/contact.html")
+def contact():
+    return render_template('contact.html')
+
 # @app.route("/favicon.ico")
 # def blog():
 #     return render_template('these are my thoughts')
